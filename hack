@@ -1,0 +1,1 @@
+console.log("God Mode for Chrome Dino Game");var i=prompt("On or Off?");if(i==="on"){var o=Runner.prototype.gameOver;Runner.prototype.gameOver=function(){};console.log("God Mode turned on successfully!");}else if(i==="off"){Runner.prototype.gameOver=o;console.log("God Mode turned off successfully!")}
